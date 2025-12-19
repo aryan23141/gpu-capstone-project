@@ -23,6 +23,16 @@ performance improvements due to parallel execution.
 - CUDA-enabled NVIDIA GPU
 - CuPy (GPU accelerated NumPy)
 - NumPy (for comparison)
+## Dependencies
+- Python 3.x
+- NumPy (CPU fallback)
+- CuPy (optional, requires CUDA-enabled GPU)
+
+## Installation
+```bash
+pip install numpy
+# Optional (only if GPU available):
+# pip install cupy-cuda11x
 
 ---
 
